@@ -1,0 +1,28 @@
+/* FOOTER */
+
+.footer-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #4e4e4e;
+}
+
+.footer-info {
+  text-align: left;
+  padding: 25px;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  color: #ffffff;
+}
+
+.footer-logo-style {
+  display: flex;
+  padding: 25px;
+  gap: 20px;
+
+  font-size: 30px;
+  color: #ffffff;
+}

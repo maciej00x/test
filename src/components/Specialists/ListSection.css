@@ -1,0 +1,88 @@
+/* LIST SECTION */
+
+.section {
+  padding: 50px 0 65px;
+}
+
+.our-crew-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: lightgray;
+}
+
+.our-crew-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.our-crew-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.our-crew-list-element-image {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+
+  border-radius: 50%;
+  object-fit: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.our-crew-image-1 {
+  background-image: url(../../assets/monkey2.jpg);
+}
+
+.our-crew-image-2 {
+  background-image: url(../../assets/monkey2.jpg);
+}
+
+.our-crew-list-element {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.our-crew-list-element:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.our-crew-list-element:nth-of-type(even) .our-crew-list-element-content {
+  align-items: flex-end;
+}
+
+.our-crew-list-element:nth-of-type(even) .tile-description {
+  text-align: right;
+}
+
+.our-crew-list-element-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  font-size: 18px;
+}
+
+.section-heading-h2 {
+  font-weight: 700;
+  font-size: 36px;
+
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+
+  color: #152d41;
+}
+
+.tile-heading {
+  font-weight: 700;
+}

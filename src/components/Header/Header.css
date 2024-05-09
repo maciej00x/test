@@ -1,0 +1,79 @@
+/* HEADER */
+
+.main-header {
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  background-image: url(../../assets/section_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-header-heading {
+  font-size: 36px;
+
+  width: 560px;
+  line-height: 42px;
+}
+
+.main-header-content {
+  position: relative;
+
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+
+  color: white;
+
+  font-size: 36px;
+  font-weight: 700;
+
+  z-index: 1;
+}
+
+.h2-style {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-style {
+  width: fit-content;
+  padding: 15px 60px;
+
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  text-decoration: none;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 1s;
+}
+
+@media (hover: hover) {
+  .button-style:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+}
+
+.main-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: black;
+  opacity: 0.3;
+}
