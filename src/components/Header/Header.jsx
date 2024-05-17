@@ -8,11 +8,7 @@ const Header = () => {
           Nasza firma oferuje najwyższej jakości produkty.
         </h1>
         <h2 className="h2-style">Nie wierz nam na słowo - sprawdź</h2>
-        <a
-          Link
-          to="./components/BoxSection/BoxSection"
-          className="button-style"
-        >
+        <a href="#boxSection" className="button-style">
           oferta
         </a>
       </div>

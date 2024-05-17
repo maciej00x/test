@@ -5,7 +5,7 @@ const BoxSection = () => {
   const newOfferIndex = offers.findIndex((offer) => offer.isNew);
 
   return (
-    <section className="box-section-style">
+    <section id="boxSection" className="box-section-style">
       <div className="box-container our-services-content">
         <h3 className="box-header-style">Czym zajmuje się nasza firma?</h3>
         <div className="box-style">

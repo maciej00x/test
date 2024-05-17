@@ -2,7 +2,7 @@ import "./ListSection.css";
 
 const ListSection = () => {
   return (
-    <section className="section our-crew-section">
+    <section id="listSection" className="section our-crew-section">
       <div className="container our-crew-section-content">
         <h2 className="section-heading-h2">Nasi specjaliści</h2>
         <ul className="our-crew-list">
