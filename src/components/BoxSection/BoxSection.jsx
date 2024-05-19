@@ -12,14 +12,14 @@ const BoxSection = () => {
           {offers.map((offer, index) => (
             <div
               key={index}
-              className={`box ${index === newOfferIndex ? "new-service" : ""}`}
+              className={`box ${offer.isNew ? "new-service" : ""}`}
             >
               {offer.name}
-              {index === newOfferIndex && (
-                <span className="new-product-style">(nowość)</span>
-              )}
-              {index === newOfferIndex && (
-                <div className="new-service-dot"></div>
+              {offer.isNew && (
+                <>
+                  <span className="new-product-style">(nowość)</span>
+                  <div className="new-service-dot"></div>
+                </>
               )}
             </div>
           ))}
